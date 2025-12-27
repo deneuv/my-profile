@@ -242,7 +242,7 @@ HACKER TERMINAL
 </div>
 
 <div class="user-box">
-  <div class="profile-pic"><img src="image.png"></div>
+  <div class="profile-pic"><img src="https://private-user-images.githubusercontent.com/166051402/530476015-e1df806d-7c28-4471-9809-17048e5d3755.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NjY4Mzg4MjksIm5iZiI6MTc2NjgzODUyOSwicGF0aCI6Ii8xNjYwNTE0MDIvNTMwNDc2MDE1LWUxZGY4MDZkLTdjMjgtNDQ3MS05ODA5LTE3MDQ4ZTVkMzc1NS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUxMjI3JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MTIyN1QxMjI4NDlaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0xMTVlMmU2ZTc5MDczYzU2YzdmMWI5OWFmOGQyZDI5NTAxNWRiNjE3OWFiNzVhMzc0NmFmYmUwNGMwMjhlNzdjJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.fzIL0Yz15R80QGbjkfj6JsVSALAL6ZH5BqNxKtWWTRg"></div>
   <div class="user-info">
     Gabriel Santana Rodrigues ( ~Deneuv )<br>
     C3SA · FCF · API-RTA · WEB-RTA · CRTA · Cisco Cybersecurity Essentials
@@ -268,44 +268,161 @@ HACKER TERMINAL
 <table>
 <thead><tr><th>#</th><th>Target</th><th>Vulnerability</th><th>Severity</th></tr></thead>
 <tbody>
-<tr><td>01</td><td>NASA</td><td>XSS + CSRF</td><td class="sev-medium">Medium</td></tr>
-<tr><td>02</td><td>Bugpay</td><td>IDOR</td><td class="sev-critical">Critical</td></tr>
-<tr><td>03</td><td>Red Bull</td><td>Race Condition</td><td class="sev-high">High</td></tr>
+<tr><td>01</td><td>Discord</td><td>Race condition</td><td class="sev-medium">Medium</td></tr>
+<tr><td>02</td><td>Redbull</td><td>Account Takeover</td><td class="sev-high">High</td></tr>
+<tr><td>03</td><td>Nutaku</td><td>Account Takeover</td><td class="sev-high">High</td></tr>
+<tr><td>04</td><td>Nasa</td><td>XSS + CSRF</td><td class="sev-medium">Medium</td></tr>
+<tr><td>05</td><td>Nasa</td><td>Open redirect</td><td class="sev-low">Low</td></tr>
+<tr><td>06</td><td>Nasa</td><td>Open redirect</td><td class="sev-low">Low</td></tr>
+<tr><td>07</td><td>Nasa</td><td>Open redirect</td><td class="sev-low">Low</td></tr>
+<tr><td>08</td><td>Mercedes-Benzs</td><td>Default Credentials</td><td class="sev-low">Low</td></tr>
+<tr><td>09</td><td>Mercedes-Benzs</td><td>Broken Access Control</td><td class="sev-low">Low</td></tr>
+<tr><td>10</td><td>Perplexity.ai</td><td>Race condition</td><td class="sev-low">Low</td></tr>
+<tr><td>11</td><td>Perplexity.ai</td><td>Race condition</td><td class="sev-low">Low</td></tr>
+<tr><td>12</td><td>Upwork</td><td>IDOR</td><td class="sev-low">low</td></tr>
+<tr><td>13</td><td>Volkskrant</td><td>Open redirect</td><td class="sev-low">Low</td></tr>
+<tr><td>14</td><td>Ingresso.com</td><td>Business Logic</td><td class="sev-critical">Critical</td></tr>
+<tr><td>15</td><td>Ingresso.com</td><td>IDOR</td><td class="sev-critical">Critical</td></tr>
+<tr><td>16</td><td>Ingresso.com</td><td>Html Injection</td><td class="sev-medium">Medium</td></tr>
+<tr><td>17</td><td>LivePix</td><td>Html Injection Stored</td><td class="sev-medium">Medium</td></tr>
+<tr><td>18</td><td>ReidoPitaco</td><td>Information Disclosure</td><td class="sev-medium">Medium</td></tr>
+<tr><td>19</td><td>ReidoPitaco</td><td>XFF Spoofing</td><td class="sev-medium">Medium</td></tr>
+<tr><td>20</td><td>ReidoPitaco</td><td>Miss Configuration</td><td class="sev-medium">Medium</td></tr>
+<tr><td>21</td><td>Méliuz</td><td>IDOR</td><td class="sev-medium">Medium</td></tr>
+<tr><td>22</td><td>Caju</td><td>SSRF</td><td class="sev-low">Low</td></tr>
+<tr><td>23</td><td>Suzano</td><td>Hardcoded Secrets</td><td class="sev-medium">Medium</td></tr>
+<tr><td>24</td><td>Suzano</td><td>Hardcoded Secrets</td><td class="sev-medium">Medium</td></tr>
+<tr><td>25</td><td>Suzano</td><td>Hardcoded Secrets</td><td class="sev-medium">Medium</td></tr>
+<tr><td>26</td><td>Suzano</td><td>Sensitive data Exposure</td><td class="sev-medium">Medium</td></tr>
+<tr><td>27</td><td>Suzano</td><td>Prompt Injection</td><td class="sev-medium">Medium</td></tr>
+<tr><td>28</td><td>Realize</td><td>Sms Bombing</td><td class="sev-medium">Medium</td></tr>
+<tr><td>29</td><td>Dock</td><td>Miss configuration</td><td class="sev-low">Low</td></tr>
+<tr><td>30</td><td>TradioBank</td><td>Race condition</td><td class="sev-high">High</td></tr>
+<tr><td>31</td><td>Bugpay</td><td>Business Logic</td><td class="sev-critical">Critical</td></tr>
+<tr><td>32</td><td>Bugpay</td><td>IDOR</td><td class="sev-critical">Critical</td></tr>
+<tr><td>33</td><td>Bugpay</td><td>IDOR</td><td class="sev-critical">Critical</td></tr>
+<tr><td>34</td><td>Bugpay</td><td>Information Disclosure</td><td class="sev-critical">Critical</td></tr>
+<tr><td>35</td><td>Bugpay</td><td>Broken Access Control</td><td class="sev-critical">Critical</td></tr>
+<tr><td>36</td><td>Bugpay</td><td>Broken Access Control</td><td class="sev-critical">Critical</td></tr>
+<tr><td>37</td><td>Bugpay</td><td>MFA Bypass</td><td class="sev-critical">Critical</td></tr>
+<tr><td>38</td><td>Bugpay</td><td>Miss configuration</td><td class="sev-critical">Critical</td></tr>
+<tr><td>39</td><td>Bugpay</td><td>Information Disclosure</td><td class="sev-critical">Critical</td></tr>
+<tr><td>40</td><td>Bugpay</td><td>MFA Bypass</td><td class="sev-critical">Critical</td></tr>
+<tr><td>41</td><td>Private Program NDA</td><td>Business Logic</td><td class="sev-low">Low</td></tr>
+<tr><td>42</td><td>Private Program NDA</td><td>Race condition</td><td class="sev-low">Low</td></tr>
+<tr><td>43</td><td>Private Program NDA</td><td>IDOR</td><td class="sev-high">High</td></tr>
+<tr><td>44</td><td>Private Program NDA</td><td>Business Logic</td><td class="sev-medium">Medium</td></tr>
+<tr><td>45</td><td>Private Program NDA</td><td>Race condition</td><td class="sev-low">Low</td></tr>
+<tr><td>46</td><td>Private Program NDA</td><td>Business Logic</td><td class="sev-high">Medium</td></tr>
+<tr><td>47</td><td>Private Program NDA</td><td>IDOR</td><td class="sev-medium">Medium</td></tr>
+<tr><td>48</td><td>Private Program NDA</td><td>Race condition</td><td class="sev-medium">Medium</td></tr>
+<tr><td>49</td><td>Private Program NDA</td><td>IDOR</td><td class="sev-high">High</td></tr>
+<tr><td>50</td><td>Private Program NDA</td><td>IDOR</td><td class="sev-medium">Medium</td></tr>
+<tr><td>51</td><td>Private Program NDA</td><td>IDOR</td><td class="sev-low">Low</td></tr>
+<tr><td>52</td><td>Private Program NDA</td><td>Business Logic</td><td class="sev-medium">Medium</td></tr>
+<tr><td>53</td><td>Private Program NDA</td><td>IDOR</td><td class="sev-medium">Medium</td></tr>
+<tr><td>54</td><td>Private Program NDA</td><td>Takeover Chave Pix</td><td class="sev-critical">Critical</td></tr>
+<tr><td>55</td><td>Private Program NDA</td><td>IDOR</td><td class="sev-low">Low</td></tr>
+<tr><td>56</td><td>Private Program NDA</td><td>Miss configuration</td><td class="sev-medium">Medium</td></tr>
+
 </tbody>
 </table>
 </div>
 
 <div class="section" id="web">
 <table><tbody>
-<tr><td>01</td><td>NASA</td><td>XSS + CSRF</td><td class="sev-medium">Medium</td></tr>
-<tr><td>02</td><td>Ingresso</td><td>IDOR</td><td class="sev-critical">Critical</td></tr>
+<tr><td>01</td><td>Discord</td><td>Race condition</td><td class="sev-medium">Medium</td></tr>
+<tr><td>02</td><td>Redbull</td><td>Account Takeover</td><td class="sev-high">High</td></tr>
+<tr><td>03</td><td>Nutaku</td><td>Account Takeover</td><td class="sev-high">High</td></tr>
+<tr><td>04</td><td>Nasa</td><td>XSS + CSRF</td><td class="sev-medium">Medium</td></tr>
+<tr><td>05</td><td>Nasa</td><td>Open redirect</td><td class="sev-low">Low</td></tr>
+<tr><td>06</td><td>Nasa</td><td>Open redirect</td><td class="sev-low">Low</td></tr>
+<tr><td>07</td><td>Nasa</td><td>Open redirect</td><td class="sev-low">Low</td></tr>
+<tr><td>08</td><td>Mercedes-Benzs</td><td>Default Credentials</td><td class="sev-low">Low</td></tr>
+<tr><td>09</td><td>Mercedes-Benzs</td><td>Broken Access Control</td><td class="sev-low">Low</td></tr>
+<tr><td>10</td><td>Perplexity.ai</td><td>Race condition</td><td class="sev-low">Low</td></tr>
+<tr><td>11</td><td>Perplexity.ai</td><td>Race condition</td><td class="sev-low">Low</td></tr>
+<tr><td>12</td><td>Upwork</td><td>IDOR</td><td class="sev-low">low</td></tr>
+<tr><td>13</td><td>Volkskrant</td><td>Open redirect</td><td class="sev-low">Low</td></tr>
+<tr><td>14</td><td>Ingresso.com</td><td>Business Logic</td><td class="sev-critical">Critical</td></tr>
+<tr><td>15</td><td>Ingresso.com</td><td>IDOR</td><td class="sev-critical">Critical</td></tr>
+<tr><td>16</td><td>Ingresso.com</td><td>Html Injection</td><td class="sev-medium">Medium</td></tr>
+<tr><td>17</td><td>LivePix</td><td>Html Injection Stored</td><td class="sev-medium">Medium</td></tr>
+<tr><td>18</td><td>ReidoPitaco</td><td>Information Disclosure</td><td class="sev-medium">Medium</td></tr>
+<tr><td>19</td><td>ReidoPitaco</td><td>XFF Spoofing</td><td class="sev-medium">Medium</td></tr>
+<tr><td>20</td><td>ReidoPitaco</td><td>Miss Configuration</td><td class="sev-medium">Medium</td></tr>
+<tr><td>21</td><td>Méliuz</td><td>IDOR</td><td class="sev-medium">Medium</td></tr>
+<tr><td>22</td><td>Caju</td><td>SSRF</td><td class="sev-low">Low</td></tr>
+<tr><td>23</td><td>Suzano</td><td>Hardcoded Secrets</td><td class="sev-medium">Medium</td></tr>
+<tr><td>24</td><td>Suzano</td><td>Hardcoded Secrets</td><td class="sev-medium">Medium</td></tr>
+<tr><td>25</td><td>Suzano</td><td>Hardcoded Secrets</td><td class="sev-medium">Medium</td></tr>
+<tr><td>26</td><td>Suzano</td><td>Sensitive data Exposure</td><td class="sev-medium">Medium</td></tr>
+<tr><td>27</td><td>Suzano</td><td>Prompt Injection</td><td class="sev-medium">Medium</td></tr>
+<tr><td>28</td><td>Realize</td><td>Sms Bombing</td><td class="sev-medium">Medium</td></tr>
+<tr><td>29</td><td>Dock</td><td>Miss configuration</td><td class="sev-low">Low</td></tr>
+<tr><td>30</td><td>TradioBank</td><td>Race condition</td><td class="sev-high">High</td></tr>
+<tr><td>31</td><td>Bugpay</td><td>Business Logic</td><td class="sev-critical">Critical</td></tr>
+<tr><td>32</td><td>Bugpay</td><td>IDOR</td><td class="sev-critical">Critical</td></tr>
+<tr><td>33</td><td>Bugpay</td><td>IDOR</td><td class="sev-critical">Critical</td></tr>
+<tr><td>34</td><td>Bugpay</td><td>Information Disclosure</td><td class="sev-critical">Critical</td></tr>
+<tr><td>35</td><td>Bugpay</td><td>Broken Access Control</td><td class="sev-critical">Critical</td></tr>
+<tr><td>36</td><td>Bugpay</td><td>Broken Access Control</td><td class="sev-critical">Critical</td></tr>
+<tr><td>37</td><td>Bugpay</td><td>MFA Bypass</td><td class="sev-critical">Critical</td></tr>
+<tr><td>38</td><td>Bugpay</td><td>Miss configuration</td><td class="sev-critical">Critical</td></tr>
+<tr><td>39</td><td>Bugpay</td><td>Information Disclosure</td><td class="sev-critical">Critical</td></tr>
+<tr><td>40</td><td>Bugpay</td><td>MFA Bypass</td><td class="sev-critical">Critical</td></tr>
 </tbody></table>
 </div>
 
 <div class="section" id="mobile">
 <table><tbody>
-<tr><td>01</td><td>Private App</td><td>Business Logic</td><td class="sev-critical">Critical</td></tr>
+<tr><td>01</td><td>Private Program NDA</td><td>Business Logic</td><td class="sev-low">Low</td></tr>
+<tr><td>02</td><td>Private Program NDA</td><td>Race condition</td><td class="sev-low">Low</td></tr>
+<tr><td>03</td><td>Private Program NDA</td><td>IDOR</td><td class="sev-high">High</td></tr>
+<tr><td>04</td><td>Private Program NDA</td><td>Business Logic</td><td class="sev-medium">Medium</td></tr>
+<tr><td>05</td><td>Private Program NDA</td><td>Race condition</td><td class="sev-low">Low</td></tr>
+<tr><td>06</td><td>Private Program NDA</td><td>Business Logic</td><td class="sev-high">Medium</td></tr>
+<tr><td>07</td><td>Private Program NDA</td><td>IDOR</td><td class="sev-medium">Medium</td></tr>
+<tr><td>08</td><td>Private Program NDA</td><td>Race condition</td><td class="sev-medium">Medium</td></tr>
+<tr><td>09</td><td>Private Program NDA</td><td>IDOR</td><td class="sev-high">High</td></tr>
+<tr><td>10</td><td>Private Program NDA</td><td>IDOR</td><td class="sev-medium">Medium</td></tr>
+<tr><td>11</td><td>Private Program NDA</td><td>IDOR</td><td class="sev-low">Low</td></tr>
+<tr><td>12</td><td>Private Program NDA</td><td>Business Logic</td><td class="sev-medium">Medium</td></tr>
+<tr><td>13</td><td>Private Program NDA</td><td>IDOR</td><td class="sev-medium">Medium</td></tr>
+<tr><td>14</td><td>Private Program NDA</td><td>Takeover Chave Pix</td><td class="sev-critical">Critical</td></tr>
+<tr><td>15</td><td>Private Program NDA</td><td>IDOR</td><td class="sev-low">Low</td></tr>
+<tr><td>16</td><td>Private Program NDA</td><td>Miss configuration</td><td class="sev-medium">Medium</td></tr>
 </tbody></table>
 </div>
 
 <div class="section" id="rewards">
-<a class="reward-btn">NASA Hall of Fame</a>
-<a class="reward-btn">Bugcrowd Reward</a>
+<a class="reward-btn">NASA LOR</a>
+<a class="reward-btn">NASA LOR</a>
+<a class="reward-btn">NASA LOR</a>
 </div>
 
 <div class="section" id="social">
-<a class="social-btn">Bugcrowd</a>
-<a class="social-btn">Instagram</a>
-<a class="social-btn">GitHub</a>
-<a class="social-btn">LinkedIn</a>
+<a href="https://bugcrowd.com/h/deneuv" class="social-btn">Bugcrowd</a>
+<a href="https://bugcrowd.com/h/deneuv" class="social-btn">Instagram</a>
+<a href="https://github.com/deneuv" class="social-btn">GitHub</a>
+<a href="https://www.linkedin.com/in/gabriel-rodriguesz/" class="social-btn">LinkedIn</a>
 </div>
 
 <div class="section" id="hall">
 <table>
-<tr><th>Company</th><th>Date</th></tr>
-<tr><td>NASA</td><td>2024-11</td></tr>
-<tr><td>Bugpay</td><td>2025-02</td></tr>
-<tr><td>Red Bull</td><td>2025-03</td></tr>
+<tr><th>Company</th><th>Year</th></tr>
+<tr><td>Bugpay - Top 1</td><td>2025</td></tr>
+<tr><td>Bypassec- Top 3</td><td>2025</td></tr>
+<tr><td>Ingresso.com - Top 2</td><td>2025</td></tr>
+<tr><td>NASA</td><td>2025</td></tr>
+<tr><td>Discord</td><td>2025</td></tr>
+<tr><td>Mercedes-Benzs</td><td>2025</td></tr>
+<tr><td>Nutaku</td><td>2025</td></tr>
+<tr><td>Upwork</td><td>2025</td></tr>
+<tr><td>Redbull</td><td>2025</td></tr>
+<tr><td>Suzano</td><td>2025</td></tr>
+<tr><td>Private Program NDA - Top 1</td><td>2025</td></tr>
+
 </table>
 </div>
 
